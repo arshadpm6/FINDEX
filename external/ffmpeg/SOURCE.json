@@ -1,0 +1,6 @@
+{
+  "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z",
+  "archive_sha256": "4705843ccaaf54257c16ad90f3e952ece33c17df964ecf7bfdbb0f49c7171077",
+  "build_page": "https://www.gyan.dev/ffmpeg/builds/",
+  "source_code": "https://github.com/FFmpeg/FFmpeg/commit/946fcce07b"
+}

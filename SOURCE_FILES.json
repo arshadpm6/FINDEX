@@ -1,0 +1,567 @@
+[
+  {
+    "path": ".gitignore",
+    "size": 765,
+    "sha256": "23d9a4f3a7a57cfd1be493b8a5090d46bb93447bd796f8ac6b307130c81cc80c"
+  },
+  {
+    "path": "app_icon.ico",
+    "size": 80437,
+    "sha256": "47a113f19ee3190e97d56999197611a0d705ee9abc6df8f47dd6befc192ce6a3"
+  },
+  {
+    "path": "assets/activity.png",
+    "size": 559,
+    "sha256": "8dd05a4b190174fb3883fe601027e7e25d69f7e0970a1e48ad50c4f310d9df33"
+  },
+  {
+    "path": "assets/cb_checked.png",
+    "size": 776,
+    "sha256": "69587f46ef1598657748c797a9a5c67379406e1275ec69d12bf1c5fcffb40387"
+  },
+  {
+    "path": "assets/cb_checked_light.png",
+    "size": 749,
+    "sha256": "7e07cf3096aa4364d6ba3089ce57380bbd32cb24e6ba412ad8a7fa0ccc5aa64d"
+  },
+  {
+    "path": "assets/cb_hover.png",
+    "size": 453,
+    "sha256": "47fd8118efcc4f630aadb8fd4b4c58e851211492a4e77acbb2d31837a2ba9c5b"
+  },
+  {
+    "path": "assets/cb_hover_light.png",
+    "size": 469,
+    "sha256": "69872a90b83868416767eee7b07f517440a103638fe00155f5fc4bcf0ddb316f"
+  },
+  {
+    "path": "assets/cb_unchecked.png",
+    "size": 485,
+    "sha256": "f032cd74d14463c996d6cc1c7b73f8023e215f7ea9d46c3a56b30541a7ad23a9"
+  },
+  {
+    "path": "assets/cb_unchecked_light.png",
+    "size": 496,
+    "sha256": "4ae3d3ef71e8f18f040b44e15384e0c6a14dafbde78b117d16f1a0940439da8b"
+  },
+  {
+    "path": "assets/check_badge.png",
+    "size": 850,
+    "sha256": "1c9389b55ec996d51a2b0f6418efaa48e5abffabbad71c3103e80190cd924b22"
+  },
+  {
+    "path": "assets/checksum.png",
+    "size": 839,
+    "sha256": "0e0b39e19f3d55c7dc72564a040cfffa67fbe5f739b69503fee3ad8d4b9d6a4e"
+  },
+  {
+    "path": "assets/columns.png",
+    "size": 448,
+    "sha256": "1dcba114551078be0c661bc07091f1170e134a07b3259c142fc839b724c8ba1b"
+  },
+  {
+    "path": "assets/compare.png",
+    "size": 644,
+    "sha256": "1331bd64ad44de9e1007a1fbbe6dd197bf2c632b9d1dcdbf2523abeba8622767"
+  },
+  {
+    "path": "assets/cross_badge.png",
+    "size": 666,
+    "sha256": "c0efddfda21fe30205681c2f275bb465542b90992f0d17075a4cbd12525f9247"
+  },
+  {
+    "path": "assets/csv.png",
+    "size": 516,
+    "sha256": "67fedf38416e78ac932ff86a1f19ab66e231944009a28d73c69fa201d27d865a"
+  },
+  {
+    "path": "assets/document.png",
+    "size": 404,
+    "sha256": "277e34b7faa73d03d6c64cf1575bbb3c4095806361ddb72ed5725db713af8272"
+  },
+  {
+    "path": "assets/excel.png",
+    "size": 912,
+    "sha256": "889de0982dfbc4635b9530e738a06695ef348cc8ff4ac1093059c83016c92473"
+  },
+  {
+    "path": "assets/export.png",
+    "size": 632,
+    "sha256": "d9621eb17ffe65aa381c8258ace655fddbf61de793edb4440845cf44079ab7a5"
+  },
+  {
+    "path": "assets/favicon.png",
+    "size": 10230,
+    "sha256": "4cbcad49bf883069e3001ff73f40f529b6a682c5e2659ff3a5ff7054bcd161a5"
+  },
+  {
+    "path": "assets/filter.png",
+    "size": 392,
+    "sha256": "98a648ad7d454ed7b398c3f3242d845349d625397c29dbc180bfad42a35a5251"
+  },
+  {
+    "path": "assets/html.png",
+    "size": 859,
+    "sha256": "96eb42ddb6695681ef2cd7313fb2706c9da01393566b32e15e13852c4bfa195c"
+  },
+  {
+    "path": "assets/info_badge.png",
+    "size": 595,
+    "sha256": "571a125fd17c6b7733efba1f0c1a3a7e1ede47a153ce0dc48d8e58ed19157183"
+  },
+  {
+    "path": "assets/inspect.png",
+    "size": 672,
+    "sha256": "4a31b539b2976f6fff3d091993e52b315f2ed07a6cb95c7b416db92c6337139a"
+  },
+  {
+    "path": "assets/paste.png",
+    "size": 512,
+    "sha256": "d8c2510770b3984bf2bed08f5c6409f1741f60a91630763e1634ee7e0ab72d5d"
+  },
+  {
+    "path": "assets/process_clean.png",
+    "size": 1235321,
+    "sha256": "55af51e304bfcf6fecde673ca141ee40fd8ef898e6cb4037796e8e208867a338"
+  },
+  {
+    "path": "assets/rb_checked.png",
+    "size": 946,
+    "sha256": "8914b329ce5daa37bcb97dbdb722af13a7bc99f75cc532236fadc4de5d6af409"
+  },
+  {
+    "path": "assets/rb_checked_light.png",
+    "size": 914,
+    "sha256": "8eaf4e6eb6c7c63d1e9b6fe921a767c8fbcd24314e8949d61dfa7cbda0c82723"
+  },
+  {
+    "path": "assets/rb_hover.png",
+    "size": 720,
+    "sha256": "f14af9da40768fed0cb29c974c978e8da9d1218d2200f6567b4e99f8501790ca"
+  },
+  {
+    "path": "assets/rb_hover_light.png",
+    "size": 730,
+    "sha256": "dc58e57cd70f556cedabbd83d74fc7cb85be3ae24b83067fdf52308e90e7d1a6"
+  },
+  {
+    "path": "assets/rb_unchecked.png",
+    "size": 732,
+    "sha256": "3d950b3e475bdfabb9e9ecc1f260439a3921ba5ece39bca4f6f035f32d90455a"
+  },
+  {
+    "path": "assets/rb_unchecked_light.png",
+    "size": 730,
+    "sha256": "dde7b6650d8d3a6ee803e46d4e4df5fbfcc2686186a6b3108a9751272f688fc3"
+  },
+  {
+    "path": "assets/settings.png",
+    "size": 1094,
+    "sha256": "dd134450b30a3dc7aeaec4d6028e1b0bbe8265bf9e47295af315fe41a1e8fb2e"
+  },
+  {
+    "path": "assets/shield.png",
+    "size": 1268,
+    "sha256": "1bebcd75d76f55a8f9056483bfa9db96ba1fa5857b3a60c00314f8ce94fc170d"
+  },
+  {
+    "path": "assets/storage.png",
+    "size": 423,
+    "sha256": "4c5bbb8a938094c9f2ec9bdfa5caf5faffd950f305528574067e39c669ff82ad"
+  },
+  {
+    "path": "assets/test_compare.png",
+    "size": 933,
+    "sha256": "8594c5d0e5a99ecf5931880d6b7948679e52060865c3ab6143739e64034954ba"
+  },
+  {
+    "path": "assets/timer.png",
+    "size": 908,
+    "sha256": "71a58cac815e3ebfae8b223e2268dfb13a56a5e52554588c31f2b511eb1462b1"
+  },
+  {
+    "path": "assets/trash.png",
+    "size": 379,
+    "sha256": "297a81eab34a476d002da06a2e2caf6aa321c03749ff11021252a1d3b585658f"
+  },
+  {
+    "path": "BUILD.md",
+    "size": 3487,
+    "sha256": "792b430a6ea80066cc3eeb72129c3478d1c0950924d652969d11f0065b9fde1f"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "size": 2022,
+    "sha256": "c3bedef6ac93cb4166c2301385524157b9882fbb8047e306a25a4cee32f40188"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "size": 965,
+    "sha256": "9044331a21d7259c08ecfe7d7adc50470087953de77e5affd5bb4ba87f892e46"
+  },
+  {
+    "path": "dialog_theme.py",
+    "size": 5372,
+    "sha256": "85011907244ae48389655785b13cc407f108d9da4dd29a87ff5146ae07630b06"
+  },
+  {
+    "path": "excel_diagnostics.py",
+    "size": 3023,
+    "sha256": "ad2f09d178acaafdfd6afb8de17821f783e64754cf140e2ef62a52ee1b1a39ed"
+  },
+  {
+    "path": "excel_support.py",
+    "size": 1019,
+    "sha256": "2e3c1803a3f7398ffc5332b7d7e68522ea7595c3db263a35731c0c533a7a34f9"
+  },
+  {
+    "path": "external/ffmpeg/LICENSE",
+    "size": 35147,
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  {
+    "path": "external/ffmpeg/README.txt",
+    "size": 41577,
+    "sha256": "0342de6bb39dd421cbec2c00d89ad274b640d75ad3f2cab09ffd647ce2d8f949"
+  },
+  {
+    "path": "external/ffmpeg/SOURCE.json",
+    "size": 297,
+    "sha256": "2ac897d6db3bde54a8d2c1ec321447f41cf85a0ba20ae13082479fb4797d7e1a"
+  },
+  {
+    "path": "File Inventory Pro.py",
+    "size": 510754,
+    "sha256": "8881b92248b35ab8250c1673bf18b7a6aa55a83a816d95aaef04bc308bfe5734"
+  },
+  {
+    "path": "File_Inventory_Pro.spec",
+    "size": 2242,
+    "sha256": "ea83e8373093b523b6a36aa9fc6f5a663fb7633748a51d6fe7d87fd977022e11"
+  },
+  {
+    "path": "FINAL_RELEASE_VERIFICATION.md",
+    "size": 6779,
+    "sha256": "2cf948f82273c1326d9995f08df194333968ac843eaafed685a7a6b17815b2fe"
+  },
+  {
+    "path": "icon.png",
+    "size": 1240638,
+    "sha256": "6c2e7458e6215457f073b02608b72ac9ef846927d205a00436b3ed9215df0819"
+  },
+  {
+    "path": "INSTALL.md",
+    "size": 1378,
+    "sha256": "8e3d1935916fbf219de62ba6e5417b88d144d23769162932411001ab3a1bcf1d"
+  },
+  {
+    "path": "installer_build.spec",
+    "size": 1783,
+    "sha256": "ad4cdb71ce13488bc297cd56113d5669e290db0299f4487eefc9d8edf2d3acfb"
+  },
+  {
+    "path": "installer_wizard.py",
+    "size": 28038,
+    "sha256": "5677a67d6f84ed461f7d6540ca37e794234793654848500e3984d41723416c45"
+  },
+  {
+    "path": "LICENSE",
+    "size": 1223,
+    "sha256": "a1c9c8aa5bdd74a78a5fb4f44ae18a003aa656f72bdc70d13413ad1dec78b2f1"
+  },
+  {
+    "path": "logo.png",
+    "size": 1240638,
+    "sha256": "6c2e7458e6215457f073b02608b72ac9ef846927d205a00436b3ed9215df0819"
+  },
+  {
+    "path": "NATIVE_COMPONENTS.json",
+    "size": 99405,
+    "sha256": "b82290a2b87efe71ea07ca8d66552f9d49c2cfbb6a35e3162e89724ef6fb017a"
+  },
+  {
+    "path": "NATIVE_DISTRIBUTION_REVIEW.json",
+    "size": 10886,
+    "sha256": "954bb3a0f20594916934ed530ac2fbcad8132f813337731a6dddef2a3cdc3d46"
+  },
+  {
+    "path": "NATIVE_DISTRIBUTION_REVIEW.md",
+    "size": 3722,
+    "sha256": "6272e008a27ad169632ff0f2412ffe7c689d405dade6caaa8af81ee7d4901980"
+  },
+  {
+    "path": "process.png",
+    "size": 1248775,
+    "sha256": "2dc872905a7244465ceb0b6ffda4e75448d8f6cfac70b2221cffae5901630dcb"
+  },
+  {
+    "path": "PUBLIC_RELEASE.md",
+    "size": 2941,
+    "sha256": "0a31623bcb5fa2cd18b155b825e0b01bada1a03235f40f473da0482fa3140978"
+  },
+  {
+    "path": "publishing/CONTRIBUTING.md",
+    "size": 965,
+    "sha256": "9044331a21d7259c08ecfe7d7adc50470087953de77e5affd5bb4ba87f892e46"
+  },
+  {
+    "path": "publishing/FFMPEG_SOURCE_REQUEST.md",
+    "size": 1423,
+    "sha256": "3022cb2d40260c66cdb27bdf110b9cd5c5eb3d43b261070cf75f5eef6a979ad4"
+  },
+  {
+    "path": "publishing/GITHUB_PUBLISHING.md",
+    "size": 2941,
+    "sha256": "0a31623bcb5fa2cd18b155b825e0b01bada1a03235f40f473da0482fa3140978"
+  },
+  {
+    "path": "publishing/GITHUB_README.md",
+    "size": 3496,
+    "sha256": "9e22c9d615aeee4f7675b06b14a6db7adb4f89ba03e6b7dc975d4605290718c2"
+  },
+  {
+    "path": "publishing/LINKEDIN_POST.md",
+    "size": 949,
+    "sha256": "f0465157fe8e2a9a3210c171656990ea48f64a42fd31c89dc76e3366ad8e9e50"
+  },
+  {
+    "path": "publishing/SOURCE_INSTALL.md",
+    "size": 1378,
+    "sha256": "8e3d1935916fbf219de62ba6e5417b88d144d23769162932411001ab3a1bcf1d"
+  },
+  {
+    "path": "publishing/SOURCE_RELEASE_NOTES.md",
+    "size": 1119,
+    "sha256": "35e76e30604883c57cef234681968efc9a1e7a3841695e3b55018a398cf96448"
+  },
+  {
+    "path": "publishing/SOURCE_SECURITY.md",
+    "size": 2481,
+    "sha256": "c14aa897186ac41a93bee421e68a45d43745d92d362f9fb96583817f9e2f97b8"
+  },
+  {
+    "path": "README.md",
+    "size": 3496,
+    "sha256": "9e22c9d615aeee4f7675b06b14a6db7adb4f89ba03e6b7dc975d4605290718c2"
+  },
+  {
+    "path": "release_integrity.py",
+    "size": 2062,
+    "sha256": "34433562633b9b5dbce0a39573067d10bd33c2177c7f18f032d27cca9d57433c"
+  },
+  {
+    "path": "RELEASE_NOTES.md",
+    "size": 1119,
+    "sha256": "35e76e30604883c57cef234681968efc9a1e7a3841695e3b55018a398cf96448"
+  },
+  {
+    "path": "report_branding.py",
+    "size": 4072,
+    "sha256": "f5ec7c27ef3865879cb666ae43bf49f1070ba03155436f58d57b3affa91d9f55"
+  },
+  {
+    "path": "requirements-build.txt",
+    "size": 75,
+    "sha256": "e8a8102b9b2eab7238d2c14b72d90702ea4cb8ca0a5136b2d67048396bd1bce5"
+  },
+  {
+    "path": "requirements-release.lock",
+    "size": 1777,
+    "sha256": "7d462e259b1af72149e359327c98c49cf9cab8cf67b458c9f710469dbdd5ea05"
+  },
+  {
+    "path": "requirements.txt",
+    "size": 47,
+    "sha256": "175a28e5969a14af0fa138b1957d9b636d88eb9b708b87b9ada0bbce1bc6b0ed"
+  },
+  {
+    "path": "resources/branding/favicon.png",
+    "size": 711079,
+    "sha256": "38ccf5e95392aa9a142dff3897af5dd46176dd7e55b3787c6a4408fe8d415074"
+  },
+  {
+    "path": "resources/branding/icon.ico",
+    "size": 106516,
+    "sha256": "49a2727086c45ca35f49f98c8933d39d6003b906f29f194256ff9aad68c20f6c"
+  },
+  {
+    "path": "resources/branding/installer_version_info.txt",
+    "size": 874,
+    "sha256": "d7f477a2292a9026bb72a5232eb3193f7debfbb8a8fe4d0ec3a30296c25baaa9"
+  },
+  {
+    "path": "resources/branding/README.md",
+    "size": 853,
+    "sha256": "e6322b41e18fde346f782546a353889cd522c8b20d07d353b904f309070c6ea7"
+  },
+  {
+    "path": "resources/branding/report_logo.png",
+    "size": 20712,
+    "sha256": "48d13776011e40ae3a8b609b68c27d7faee72e3a723793f235d1d851b178eca3"
+  },
+  {
+    "path": "resources/branding/version_info.txt",
+    "size": 849,
+    "sha256": "d0a6a59071e5444be26b1b7310a936c2f4e6999464ff6b345da673f569d5038e"
+  },
+  {
+    "path": "resources/third_party/Qt-license-texts/COPYING.GPLv2",
+    "size": 17337,
+    "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3"
+  },
+  {
+    "path": "resources/third_party/Qt-license-texts/COPYING.GPLv3",
+    "size": 34674,
+    "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+  },
+  {
+    "path": "resources/third_party/Qt-license-texts/COPYING.LGPLv3",
+    "size": 42098,
+    "sha256": "996af0513df21f7496288951c41428a03c174e9e4a9d63665c57d670f845ccb1"
+  },
+  {
+    "path": "resources/third_party/Qt-license-texts/SOURCE_URLS.json",
+    "size": 671,
+    "sha256": "45020c8fc31662cefef7bd0ff816e643394006c45025172640d1060cab2536f7"
+  },
+  {
+    "path": "scripts/build_release.ps1",
+    "size": 448,
+    "sha256": "88b3880b4792963fcb356a2ffd2abf234250dfb09badfe0f959eea819243a86a"
+  },
+  {
+    "path": "scripts/build_release.py",
+    "size": 3312,
+    "sha256": "6e15ce2aa823720400b0462ea4b2113a1baeb70c3cb065dcf9c40e14958ee6dc"
+  },
+  {
+    "path": "scripts/check_binary_identity.py",
+    "size": 1334,
+    "sha256": "940ab4d53e625ef257ef82eb7fba14f576a3454b8040cb053b93d87b9b3cdad4"
+  },
+  {
+    "path": "scripts/check_build_environment.py",
+    "size": 907,
+    "sha256": "c5e87b2f3a413ccf76f56eaa646aaa04fc39e67f7d5dcc41373be7ff3a609f91"
+  },
+  {
+    "path": "scripts/collect_notices.py",
+    "size": 1231,
+    "sha256": "e088810ab554ec1416dc10f2966f4a9fbad742bc965113f1ded8b635222dcf9d"
+  },
+  {
+    "path": "scripts/lock_wheels.py",
+    "size": 999,
+    "sha256": "0f79852e3d27d476ed168c2914009fdd85bab6cebf931643fe9a926db7e12d25"
+  },
+  {
+    "path": "scripts/package_payload.py",
+    "size": 1724,
+    "sha256": "6f3ddc79d2fe990a3b2f1cc199a7c73e9c9568ef196ad97c219d1ac76d71bcaf"
+  },
+  {
+    "path": "scripts/prepare_github.py",
+    "size": 5050,
+    "sha256": "7dd08f28d47f873d4a837a67c01c0850a5e5e376238cd44f63cad21588eb0a8d"
+  },
+  {
+    "path": "scripts/prepare_public_release.py",
+    "size": 4172,
+    "sha256": "cc896113288b36abea3a4ea82fa11426c128f65f9cd318692edd15667c480a6e"
+  },
+  {
+    "path": "scripts/release_manifest.py",
+    "size": 2844,
+    "sha256": "eeb3e7d8ca7424331adc63982054bec9e08b4b7952a9bac32129da90068a171b"
+  },
+  {
+    "path": "scripts/review_native_release.py",
+    "size": 8931,
+    "sha256": "1d04dbdbeeb37eb3152a2b6f1bccca232722c36d74d562d13dd983db3b159255"
+  },
+  {
+    "path": "scripts/validate_public_release.py",
+    "size": 4704,
+    "sha256": "e7640b34c9d198e33a1962d928c97a97094c68a1817d1f4774cdb38dd891e7cd"
+  },
+  {
+    "path": "scripts/verify_release.ps1",
+    "size": 924,
+    "sha256": "3045ce0664f8fcc3a74e8fff03ad6dc339c462585a72d4f13a43f1b269700665"
+  },
+  {
+    "path": "SECURITY.md",
+    "size": 2481,
+    "sha256": "c14aa897186ac41a93bee421e68a45d43745d92d362f9fb96583817f9e2f97b8"
+  },
+  {
+    "path": "security_io.py",
+    "size": 6364,
+    "sha256": "d61e0132460388b02ab6b4aceb45d104e46544e176e3016dd53530e1517884a9"
+  },
+  {
+    "path": "tests/check_startup_windows.py",
+    "size": 1264,
+    "sha256": "c074749648f115e97153a316a3f6340bec76b40e52f446632b184f9351775cd4"
+  },
+  {
+    "path": "tests/profile_hash_animation.py",
+    "size": 2317,
+    "sha256": "b2cc8024a20644c81cd9089fe2b0bff2c1f93aa481784ce1e5886d705697edaf"
+  },
+  {
+    "path": "tests/smoke_installer.py",
+    "size": 2718,
+    "sha256": "7cfc5f33ce355b96d543b9c79e2ee405a4e004e57200fe971dca2ca0ea637e14"
+  },
+  {
+    "path": "tests/smoke_portable.py",
+    "size": 4159,
+    "sha256": "a16dfaf6706e438079a4dc70aec5b66fce05476699e65c291d9acc5cf865e25f"
+  },
+  {
+    "path": "tests/test_export_selection.py",
+    "size": 9943,
+    "sha256": "d399f732eed681f7d61370cb1df28a926dd711916dbdb8d9145de13194d1778f"
+  },
+  {
+    "path": "tests/test_gui_corrections.py",
+    "size": 10707,
+    "sha256": "3b12c91e4035252b7d9d396777a937f0bc4fddaab29f8d68dc92b4e9234418c7"
+  },
+  {
+    "path": "tests/test_inventory_sizes.py",
+    "size": 4846,
+    "sha256": "82d4847412fcc529bf30ceb0f559c7a40eb486423792df925defce9a81a48690"
+  },
+  {
+    "path": "tests/test_message_box_theme.py",
+    "size": 6467,
+    "sha256": "5866856701cd1f54301f45258c0d404763afb91b7f0636900cc05df64f92951b"
+  },
+  {
+    "path": "tests/test_payload_install.py",
+    "size": 3747,
+    "sha256": "02e51723ae9435da883cfb694cf70385e9feb2c7276d44914d5fd786f5264031"
+  },
+  {
+    "path": "tests/test_report_branding.py",
+    "size": 6010,
+    "sha256": "6b1d94d1ecbf5030df7e25a3f48af0e94ab353b6a9633cbc43eb1c9300d09ab7"
+  },
+  {
+    "path": "tests/test_review_fixes.py",
+    "size": 18548,
+    "sha256": "f20267784b73140a86fa3f1693de797444837c6cd7259817fece93c3ef953873"
+  },
+  {
+    "path": "tests/test_security_hardening.py",
+    "size": 12332,
+    "sha256": "94ab1858040cfd4c748838acd0e4e131afde1cac3355347e2d638859c38fdb88"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "size": 2716,
+    "sha256": "0e1eb00e3932353e981d5795d02234690596dd4a226e8cf74ea090700ed6a979"
+  }
+]

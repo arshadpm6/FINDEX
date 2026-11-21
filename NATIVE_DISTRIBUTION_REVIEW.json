@@ -1,0 +1,260 @@
+{
+  "reviewed_on": "2026-11-14",
+  "scope": "Existing local 3.0.1 portable; source-only GitHub preparation",
+  "portable_sha256": "810867067b5c64d8b0a326cdde7a593db2245ba819a1ab08550a0078836c0c1e",
+  "application_sources": {
+    "File Inventory Pro.py": "b05c1abc85711764be26c894e1a3527ed147fa3fa15e0469a35755961728ae6c",
+    "installer_wizard.py": "5677a67d6f84ed461f7d6540ca37e794234793654848500e3984d41723416c45",
+    "dialog_theme.py": "85011907244ae48389655785b13cc407f108d9da4dd29a87ff5146ae07630b06",
+    "report_branding.py": "f5ec7c27ef3865879cb666ae43bf49f1070ba03155436f58d57b3affa91d9f55"
+  },
+  "qt_version": "6.12.0",
+  "qt_advisory_source": "https://wiki.qt.io/List_of_known_vulnerabilities_in_Qt_products",
+  "qt_inventory": [
+    {
+      "path": "FINDEX/_internal/PySide6/Qt6Core.dll",
+      "size": 10472760,
+      "sha256": "f57ed38afd95d0306cca9d88d997f639f70c7628a4f1f064eae291d579487121"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/Qt6Gui.dll",
+      "size": 9683256,
+      "sha256": "abd20026e190e8cc69667d1bea042db05cd353cc05e7da74b063c20b7da3f6cd"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/Qt6Network.dll",
+      "size": 1780536,
+      "sha256": "1c7c393b264ae78f4dee211656377a086c4be714bf768d3135f94f11c1d0be61"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/Qt6OpenGL.dll",
+      "size": 1989944,
+      "sha256": "788b743bfaca141ca83e28c161646d51de92a71adf7a86c653c36fdea5a9bf5b"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/Qt6Qml.dll",
+      "size": 5390136,
+      "sha256": "0be9fc8ad3b7d2d19d0ed49a9026f02b78c4498ab2f53ca574d34a0740d7888a"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/Qt6QmlMeta.dll",
+      "size": 158520,
+      "sha256": "6edac38b27868e69c8ae15b08145688b02358426d5d652a0d2865ca4476fde0a"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/Qt6QmlModels.dll",
+      "size": 1021752,
+      "sha256": "78e79eee241326da0754e29f4b372dee9ff7b75f3484099504c4750ac1f519e6"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/Qt6QmlWorkerScript.dll",
+      "size": 80184,
+      "sha256": "475456ab8f1e9570f5f5f496b0941445a34fca4bbac0dd07ea84ee5ea15e7194"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/Qt6Quick.dll",
+      "size": 6752568,
+      "sha256": "3c93688f36ad4e5c5c2fd73587f50ee94e1dfa4891805bbe5d6d0c031450faa2"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/Qt6Svg.dll",
+      "size": 608056,
+      "sha256": "8f1de5b28aab1eedb415c751c81f9cfaa2804242868c0ceea5f3fdb4b2babca4"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/Qt6VirtualKeyboard.dll",
+      "size": 424248,
+      "sha256": "973369caa6d13fa08f6b1cd57004dcf4f137f8ef98ec6876ad07ba690ee0b9a3"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/Qt6Widgets.dll",
+      "size": 6520120,
+      "sha256": "2f62cbe2869fff4e20df7369c2786e1ec7ec290d5a63d1371b7f70cf06909c3f"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/QtCore.pyd",
+      "size": 3521336,
+      "sha256": "6486f6f0a2fec42fc8c652c0b76bb3ad0d44eaccad9c72e577116a075681eebb"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/QtGui.pyd",
+      "size": 3936056,
+      "sha256": "9ac544d1bcf8a26c408c63090d05506f8382d5378ee3a204e29a3ac5449c5b2b"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/QtNetwork.pyd",
+      "size": 1039672,
+      "sha256": "22bffdb2a431b5a986de255f7eb0fcd1fd7d9e85c53967978e2ab479b33a13c5"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/QtSvg.pyd",
+      "size": 116536,
+      "sha256": "c9bdacf14ce30f4de75179f999ff20d7a8856126dbebd3a518a5e1c2916a3a6d"
+    },
+    {
+      "path": "FINDEX/_internal/PySide6/QtWidgets.pyd",
+      "size": 4911416,
+      "sha256": "a8e323e56a93c1a8a70981c36a409c0a2546e7a08da5be8ca4e03dfd27febc2a"
+    }
+  ],
+  "qt_findings": [
+    {
+      "cve": "CVE-2026-116337",
+      "component": "Qt Network HTTP responses",
+      "checked_modules": [
+        "Qt6Network.dll"
+      ],
+      "present_modules": [
+        "Qt6Network.dll"
+      ],
+      "direct_api_references": [],
+      "disposition": "present_no_direct_trigger_found_not_cleared"
+    },
+    {
+      "cve": "CVE-2026-110944",
+      "component": "Qt HTTP Server",
+      "checked_modules": [
+        "Qt6HttpServer.dll"
+      ],
+      "present_modules": [],
+      "direct_api_references": [],
+      "disposition": "triggering_module_not_shipped"
+    },
+    {
+      "cve": "CVE-2026-114366",
+      "component": "Qt WebSockets",
+      "checked_modules": [
+        "Qt6WebSockets.dll"
+      ],
+      "present_modules": [],
+      "direct_api_references": [],
+      "disposition": "triggering_module_not_shipped"
+    },
+    {
+      "cve": "CVE-2026-111487",
+      "component": "Qt3D assimp importer",
+      "checked_modules": [
+        "Qt63DCore.dll",
+        "Qt63DRender.dll"
+      ],
+      "present_modules": [],
+      "direct_api_references": [],
+      "disposition": "triggering_module_not_shipped"
+    },
+    {
+      "cve": "CVE-2026-100140",
+      "component": "Qt5Compat XML",
+      "checked_modules": [
+        "Qt6Core5Compat.dll"
+      ],
+      "present_modules": [],
+      "direct_api_references": [],
+      "disposition": "triggering_module_not_shipped"
+    },
+    {
+      "cve": "CVE-2026-105924",
+      "component": "Qt Core CBOR conversion",
+      "checked_modules": [
+        "Qt6Core.dll"
+      ],
+      "present_modules": [
+        "Qt6Core.dll"
+      ],
+      "direct_api_references": [],
+      "disposition": "present_no_direct_trigger_found_not_cleared"
+    }
+  ],
+  "public_package_metadata": {
+    "pyside6_latest": "6.12.0",
+    "patched_versions": {
+      "6.12.1": false,
+      "6.11.3": true,
+      "6.8.10": false
+    },
+    "gyan_release_url": "https://github.com/GyanD/codexffmpeg/releases/tag/9.0.2",
+    "gyan_assets": [
+      {
+        "name": "ffmpeg-9.0.2-essentials_build.7z",
+        "url": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-essentials_build.7z"
+      },
+      {
+        "name": "ffmpeg-9.0.2-essentials_build.zip",
+        "url": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-essentials_build.zip"
+      },
+      {
+        "name": "ffmpeg-9.0.2-full_build-shared.7z",
+        "url": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-full_build-shared.7z"
+      },
+      {
+        "name": "ffmpeg-9.0.2-full_build-shared.zip",
+        "url": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-full_build-shared.zip"
+      },
+      {
+        "name": "ffmpeg-9.0.2-full_build.7z",
+        "url": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-full_build.7z"
+      },
+      {
+        "name": "ffmpeg-9.0.2-full_build.zip",
+        "url": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-full_build.zip"
+      }
+    ]
+  },
+  "ffmpeg": {
+    "binary_sha256": "f0d36ecbbdd3bcfac3efa078c96c7271c2e68b3810595552ac3b7f17e9a65c52",
+    "version_and_configuration": "ffprobe version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers\nbuilt with gcc 16.2.0 (Rev3, Built by MSYS2 project)\nconfiguration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-zlib --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-sdl2 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxvid --enable-libaom --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-openal --enable-libgme --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libtheora --enable-libvo-amrwbenc --enable-libgsm --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-librubberband\nlibavutil      61.  1.102 / 61.  1.102\nlibavcodec     63.  1.102 / 63.  1.102\nlibavformat    63.  1.102 / 63.  1.102\nlibavdevice    63.  1.102 / 63.  1.102\nlibavfilter    12.  1.102 / 12.  1.102\nlibswscale     10.  1.102 / 10.  1.102\nlibswresample   7.  1.102 /  7.  1.102\n",
+    "provenance": {
+      "url": "https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.7z",
+      "archive_sha256": "4705843ccaaf54257c16ad90f3e952ece33c17df964ecf7bfdbb0f49c7171077",
+      "build_page": "https://www.gyan.dev/ffmpeg/builds/",
+      "source_code": "https://github.com/FFmpeg/FFmpeg/commit/946fcce07b"
+    },
+    "recorded_external_library_versions": [
+      "AMF v1.5.2-2-gc35f613",
+      "aom v3.15.0-25-g023743a7d7",
+      "AviSynthPlus v3.7.5-383-g5c82777b",
+      "cairo 1.18.5",
+      "ffnvcodec n13.1.15.0-1-geddcea9",
+      "freetype VER-2-14-3",
+      "fribidi v1.0.16-19-gc928e4c",
+      "gsm 1.0.24",
+      "harfbuzz 14.4.0-108-g64e2b532",
+      "lame 3.100",
+      "libass 0.17.5-8-gb2fe9d8",
+      "libgme 0.6.6",
+      "libopencore-amrnb 0.1.6",
+      "libopencore-amrwb 0.1.6",
+      "libssh 0.12.2",
+      "libtheora v1.2.0",
+      "libwebp v1.6.0-249-g1f34635",
+      "openal-soft 1.25.2-48-g7532541",
+      "openjpeg2 2.5.4",
+      "openmpt libopenmpt-0.6.30-3-g6c0a06bc",
+      "opus v1.6.1-68-g503d81b1",
+      "rubberband v4.0.0",
+      "SDL release-2.32.0-234-gb90ac9502",
+      "speex Speex-1.2.1-51-g0589522",
+      "srt v1.5.7-7-gcae8f62",
+      "VAAPI 2.25.0.",
+      "vidstab v1.1.2-214-ge2445c4",
+      "vmaf v3.2.0-13-gf85a8536",
+      "vo-amrwbenc 0.1.3",
+      "vorbis v1.3.7-37-g1b75110b",
+      "VPL 2.17",
+      "vpx v1.17.0-57-gd2413e2ca",
+      "x264 v0.165.3223",
+      "x265 4.3-45-g116b875",
+      "xvid v1.3.7",
+      "zeromq 4.3.5",
+      "zimg release-3.0.6-253-g67e0603"
+    ],
+    "complete_corresponding_source_verified": false,
+    "missing_materials": [
+      "Exact external dependency sources and local patches",
+      "Build recipes/configuration inputs and corresponding source completeness verification",
+      "Source coverage for dependencies absent from the recorded library-version list"
+    ]
+  },
+  "source_publication": "No native binaries or runtime libraries included; original FINDEX source remains MIT",
+  "binary_publication": "ON HOLD: native redistribution materials and present Qt findings remain unresolved",
+  "limits": "AST references and artifact inventory are not a full transitive native reachability or exploitability audit."
+}

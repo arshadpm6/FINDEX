@@ -1,0 +1,57 @@
+# Do not publish local evidence, user reports, credentials, build environments or backups.
+.venv/
+.audit-venv/
+.release-venv/
+.findex-build/
+__pycache__/
+*.pyc
+*.bak
+*.pre_redesign_bak
+scratch/
+build*/
+dist*/
+installer_rebuild/
+FINDEX_v*_Release/
+Metadata_Reports/
+*.exe
+SHA256SUMS.txt
+RELEASE_MANIFEST.json
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+release/
+*.zip
+*.7z
+*.tar.xz
+*.log
+.pytest_cache/
+.idea/
+.vscode/
+*.pem
+*.key
+*.pfx
+*.p12
+# Local historical source copies are not part of the reviewed application.
+/code for file details.py
+/txt.py
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Native tools, report exports and public-source staging must not be committed.
+github/
+*.dll
+*.pyd
+*.lib
+*.a
+*.so
+*.dylib
+*.whl
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.html
