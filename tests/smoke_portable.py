@@ -1,4 +1,5 @@
 """Check the rebuilt portable program and its bundled helper executables."""
+import argparse
 import hashlib
 import json
 import os
@@ -10,7 +11,11 @@ import shutil
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
-portable = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else root / 'dist' / 'FINDEX'
+parser = argparse.ArgumentParser()
+parser.add_argument('portable', nargs='?', type=Path, default=root / 'dist/FINDEX')
+parser.add_argument('--core', action='store_true')
+options = parser.parse_args()
+portable = options.portable.resolve()
 executable = portable / 'FINDEX.exe'
 internal = portable / '_internal'
 tools = [internal / 'external' / 'exiftool' / 'exiftool.exe', internal / 'external' / 'ffmpeg' / 'ffprobe.exe']
@@ -43,6 +48,9 @@ with tempfile.TemporaryDirectory(prefix='findex-frozen-excel-', dir=root / 'scra
                 assert (stub / '__init__.py').read_text(encoding='utf-8').startswith('# FINDEX temporary')
                 shutil.rmtree(stub)  # Only the explicitly owned fixture in the freshly built app.
 versions = {}
+if options.core:
+    assert not (internal / 'external').exists(), 'Core package must not include helper bundles'
+    tools = []
 for tool in tools:
     assert tool.is_file(), tool
     if tool.name == 'exiftool.exe':

@@ -28,7 +28,7 @@ if missing:
 output = root / 'dist' / 'app_payload.zip'
 for name in ('README.md', 'LICENSE', 'SECURITY.md', 'THIRD_PARTY_NOTICES.md',
              'CHANGELOG.md', 'INSTALL.md', 'BUILD.md', 'RELEASE_NOTES.md',
-             'PUBLIC_RELEASE.md', 'FINAL_RELEASE_VERIFICATION.md'):
+             'PUBLIC_RELEASE.md', 'FINAL_RELEASE_VERIFICATION.md', 'CORE_RELEASE.md'):
     shutil.copy2(root / name, application / name)
 with zipfile.ZipFile(output, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
     for source in sorted(application.rglob('*')):
