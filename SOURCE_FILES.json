@@ -30,9 +30,19 @@
     "sha256": "2cf948f82273c1326d9995f08df194333968ac843eaafed685a7a6b17815b2fe"
   },
   {
+    "path": "FINDEX.py",
+    "size": 510754,
+    "sha256": "8881b92248b35ab8250c1673bf18b7a6aa55a83a816d95aaef04bc308bfe5734"
+  },
+  {
+    "path": "FINDEX.spec",
+    "size": 2230,
+    "sha256": "6fec8d501e22a26a31273c8761ae1c3e2db1934b42628bc8996b4867fcd3f7c0"
+  },
+  {
     "path": "FINDEX_Core.spec",
-    "size": 2397,
-    "sha256": "a3670378cd84fddbec3847d6c23f02666a3494f7670436120d0541f902a8b906"
+    "size": 2385,
+    "sha256": "7f085c8c6d9e18c195108157ae8e6f308dc5a23994118ee2c9623247b4eaf6bc"
   },
   {
     "path": "FINDEX_Core_Setup.spec",
@@ -40,19 +50,9 @@
     "sha256": "d8d456389776a8a37a15702f90147372ce96e534e67b277f424bd8340afb7853"
   },
   {
-    "path": "File Inventory Pro.py",
-    "size": 510754,
-    "sha256": "8881b92248b35ab8250c1673bf18b7a6aa55a83a816d95aaef04bc308bfe5734"
-  },
-  {
-    "path": "File_Inventory_Pro.spec",
-    "size": 2242,
-    "sha256": "ea83e8373093b523b6a36aa9fc6f5a663fb7633748a51d6fe7d87fd977022e11"
-  },
-  {
     "path": "INSTALL.md",
-    "size": 1958,
-    "sha256": "38668de84f5e6649c146f850918171e09f6b484fcfddce4aac34971b1272e250"
+    "size": 1946,
+    "sha256": "52c3bda89a60873c197b133342535db644f88e142482e2e2bf6eb3948114cb40"
   },
   {
     "path": "LICENSE",
@@ -81,8 +81,8 @@
   },
   {
     "path": "README.md",
-    "size": 10971,
-    "sha256": "e035a050ba9ca95c0d169032066408279d34bc14a6a3074914feb7b657148e61"
+    "size": 10895,
+    "sha256": "5d15482b0a9b6298149f2c35137f0d1c42ebe42fd283eaf7cd4babe943f7f653"
   },
   {
     "path": "RELEASE_NOTES.md",
@@ -361,8 +361,8 @@
   },
   {
     "path": "publishing/SOURCE_INSTALL.md",
-    "size": 1378,
-    "sha256": "8e3d1935916fbf219de62ba6e5417b88d144d23769162932411001ab3a1bcf1d"
+    "size": 1315,
+    "sha256": "4b7ceed9c9c816a0db62816b3e9cf12fe8edba0c5fc857cea1419df54909faee"
   },
   {
     "path": "publishing/SOURCE_RELEASE_NOTES.md",
@@ -451,8 +451,8 @@
   },
   {
     "path": "scripts/build_core_release.py",
-    "size": 6334,
-    "sha256": "2a5120787df1219a6e67037409d097e2775562791185de7a440456c8a42225a7"
+    "size": 6322,
+    "sha256": "75f5fea01c23b0cd480c0de8eb44a123d91b09aa4362161d022ce5c4f7872f72"
   },
   {
     "path": "scripts/build_release.ps1",
@@ -461,8 +461,8 @@
   },
   {
     "path": "scripts/build_release.py",
-    "size": 3312,
-    "sha256": "6e15ce2aa823720400b0462ea4b2113a1baeb70c3cb065dcf9c40e14958ee6dc"
+    "size": 3300,
+    "sha256": "03ce1e2a6d02e7229bbbaab7c4fb1e0a239d87fdf079233d28a40323450faae7"
   },
   {
     "path": "scripts/check_binary_identity.py",
@@ -496,8 +496,8 @@
   },
   {
     "path": "scripts/prepare_public_release.py",
-    "size": 4172,
-    "sha256": "cc896113288b36abea3a4ea82fa11426c128f65f9cd318692edd15667c480a6e"
+    "size": 4148,
+    "sha256": "585e70e4d5e36689f0accc20f900f325b3ddd0eec0295e926e91632ce4c4f575"
   },
   {
     "path": "scripts/release_components.py",
@@ -511,8 +511,8 @@
   },
   {
     "path": "scripts/review_native_release.py",
-    "size": 8931,
-    "sha256": "1d04dbdbeeb37eb3152a2b6f1bccca232722c36d74d562d13dd983db3b159255"
+    "size": 8919,
+    "sha256": "7fc76caebf3229ce99fe40354c83e26af91f51a17481ce9c014a5188ccefa9b5"
   },
   {
     "path": "scripts/validate_public_release.py",
@@ -546,8 +546,8 @@
   },
   {
     "path": "tests/smoke_portable.py",
-    "size": 4459,
-    "sha256": "316450f2ed1d46dc2190ef00e3226ab6e152c4d5da686c6e40cd6e4b129637c3"
+    "size": 4447,
+    "sha256": "a9d7e26dd37f388b9751bd0de307ef301a33c3e8e03179d829c6d1a6c5c1272e"
   },
   {
     "path": "tests/test_export_selection.py",
@@ -561,8 +561,8 @@
   },
   {
     "path": "tests/test_inventory_sizes.py",
-    "size": 4846,
-    "sha256": "82d4847412fcc529bf30ceb0f559c7a40eb486423792df925defce9a81a48690"
+    "size": 4834,
+    "sha256": "23f19da67b59f321bbf02e7a7d2d99a695d1facdae877309fbb9779182c98388"
   },
   {
     "path": "tests/test_message_box_theme.py",
@@ -581,12 +581,12 @@
   },
   {
     "path": "tests/test_review_fixes.py",
-    "size": 18548,
-    "sha256": "f20267784b73140a86fa3f1693de797444837c6cd7259817fece93c3ef953873"
+    "size": 18536,
+    "sha256": "bd31a57bdbc8c22481a04314cd08094d69d3184a1af36b12cc868da7d594c557"
   },
   {
     "path": "tests/test_security_hardening.py",
-    "size": 12332,
-    "sha256": "94ab1858040cfd4c748838acd0e4e131afde1cac3355347e2d638859c38fdb88"
+    "size": 12320,
+    "sha256": "b0dc2f7912744fe5afe7898d7f332e33c7415c810b86a1ef36a99aeab5859981"
   }
 ]

@@ -6,11 +6,10 @@ Use Windows x64 and Python 3.12 x64.
 ```powershell
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe "File Inventory Pro.py"
+.\.venv\Scripts\python.exe "FINDEX.py"
 ```
 
-The legacy source filename is retained for build compatibility; the application
-identity and executable name are FINDEX.
+The source entry point is FINDEX.py and the executable is FINDEX.exe.
 
 For Metadata Explorer, obtain ExifTool from https://exiftool.org/ and configure
 its path in Settings, or provision the matching complete Windows ExifTool bundle

@@ -86,7 +86,7 @@ class InventorySizeTests(unittest.TestCase):
 
     def test_source_diagnostic_exports_real_workbooks(self):
         output = self.root / 'excel-check'
-        checked = subprocess.run([sys.executable, str(fixtures.ROOT / 'File Inventory Pro.py'),
+        checked = subprocess.run([sys.executable, str(fixtures.ROOT / 'FINDEX.py'),
             '--check-excel', str(output)], cwd=fixtures.ROOT, capture_output=True, timeout=45)
         result = json.loads((output / 'result.json').read_text(encoding='utf-8'))
         self.assertEqual(checked.returncode, 0, result)

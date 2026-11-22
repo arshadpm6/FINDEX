@@ -48,7 +48,7 @@ excludes = [
 ]
 
 a = Analysis(
-    ['File Inventory Pro.py'],
+    ['FINDEX.py'],
     pathex=['.'],
     binaries=[],
     datas=datas,

@@ -25,7 +25,7 @@ def main():
         assert digest(stream) == expected, 'Portable archive no longer matches reviewed manifest'
     identifiers = set()
     source_hashes = {}
-    for name in ('File Inventory Pro.py', 'installer_wizard.py', 'dialog_theme.py', 'report_branding.py'):
+    for name in ('FINDEX.py', 'installer_wizard.py', 'dialog_theme.py', 'report_branding.py'):
         data = (ROOT / name).read_bytes()
         source_hashes[name] = hashlib.sha256(data).hexdigest()
         for node in ast.walk(ast.parse(data)):

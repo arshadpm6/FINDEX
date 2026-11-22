@@ -26,7 +26,7 @@ from pathlib import Path
 root = Path.cwd()
 sys.path.insert(0, str(root))
 sys.modules["numpy"] = types.ModuleType("numpy")
-spec = importlib.util.spec_from_file_location("findex_numpy_test", root / "File Inventory Pro.py")
+spec = importlib.util.spec_from_file_location("findex_numpy_test", root / "FINDEX.py")
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 assert module.OPENPYXL_AVAILABLE

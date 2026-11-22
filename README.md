@@ -160,10 +160,10 @@ Use Python 3.12 x64 on Windows:
 ```powershell
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe "File Inventory Pro.py"
+.\.venv\Scripts\python.exe "FINDEX.py"
 ```
 
-The legacy Python filename is retained for build compatibility. Runtime
+Runtime
 dependencies are PySide6, openpyxl, and Pillow. Native helper executables are
 excluded from source control and must be provisioned separately when needed.
 See [INSTALL.md](INSTALL.md) and [BUILD.md](BUILD.md).

@@ -33,7 +33,7 @@ Use Python 3.12 x64 on Windows:
 ```powershell
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe "File Inventory Pro.py"
+.\.venv\Scripts\python.exe "FINDEX.py"
 ```
 
 Configure official ExifTool in Settings for metadata extraction. Retain its

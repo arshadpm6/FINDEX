@@ -10,10 +10,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS = ('README.md', 'LICENSE', 'INSTALL.md', 'BUILD.md', 'CHANGELOG.md',
         'SECURITY.md', 'THIRD_PARTY_NOTICES.md', 'RELEASE_NOTES.md',
         'PUBLIC_RELEASE.md', 'FINAL_RELEASE_VERIFICATION.md')
-SOURCES = ('File Inventory Pro.py', 'installer_wizard.py', 'security_io.py',
+SOURCES = ('FINDEX.py', 'installer_wizard.py', 'security_io.py',
            'release_integrity.py', 'dialog_theme.py', 'report_branding.py',
            'excel_support.py', 'excel_diagnostics.py',
-           'File_Inventory_Pro.spec', 'installer_build.spec', '.gitignore',
+           'FINDEX.spec', 'installer_build.spec', '.gitignore',
            'requirements.txt', 'requirements-build.txt', 'requirements-release.lock',
            'logo.png', 'icon.png', 'process.png', 'app_icon.ico')
 

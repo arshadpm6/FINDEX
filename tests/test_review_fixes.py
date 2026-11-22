@@ -27,7 +27,7 @@ def load(name, filename):
     return module
 
 
-m = load('inventory_app_tests', 'File Inventory Pro.py')
+m = load('inventory_app_tests', 'FINDEX.py')
 installer = load('inventory_installer_tests', 'installer_wizard.py')
 from PySide6.QtCore import QSettings, QTimer
 from PySide6.QtWidgets import QApplication, QFileDialog, QMessageBox

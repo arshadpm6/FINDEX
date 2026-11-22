@@ -78,7 +78,7 @@ finally:
         process.wait(10)
 report = dict(portable_executable=str(executable), startup='passed (offscreen)', helper_versions=versions,
               executable_sha256=hashlib.sha256(executable.read_bytes()).hexdigest(),
-              source_sha256=hashlib.sha256((root / 'File Inventory Pro.py').read_bytes()).hexdigest())
+              source_sha256=hashlib.sha256((root / 'FINDEX.py').read_bytes()).hexdigest())
 report_dir = root / 'scratch' / 'verified_inventory_output'
 report_dir.mkdir(parents=True, exist_ok=True)
 (report_dir / 'portable_verification.json').write_text(json.dumps(report, indent=2), encoding='utf-8')

@@ -83,7 +83,7 @@ def main():
             archive.write(ROOT / entry["path"], entry["path"])
         archive.write(ROOT / "SOURCE_FILES.json", "SOURCE_FILES.json")
     report = {"platform": platform.platform(), "python": sys.version, "checks": results,
-              "source_sha256": sha256(ROOT / "File Inventory Pro.py"),
+              "source_sha256": sha256(ROOT / "FINDEX.py"),
               "setup_sha256": sha256(release / setup.name),
               "optional_native_helpers": "not bundled",
               "unused_qt_components": "Network/PDF/QML/Quick/VirtualKeyboard omitted",
